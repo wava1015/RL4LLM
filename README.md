@@ -11,10 +11,14 @@
 
 ### 🌟PPO
 ![image](https://github.com/zwxandy/Efficient-CoT-Reasoning/blob/main/long_cot.png)
-"$$\n",
-"\\mathcal{J}_{PPO}(\\theta) = \\mathbb{E}_{q \\sim P(Q), o \\sim \\pi_{\\theta_{old}}(O|q)} \\left[ \\frac{1}{|o|} \\sum_{t=1}^{|o|} \\min \\left( \\frac{\\pi_{\\theta}(o_t|q, o_{<t})}{\\pi_{\\theta_{old}}(o_t|q, o_{<t})} A_t, \\text{clip} \\left( \\frac{\\pi_{\\theta}(o_t|q, o_{<t})}{\\pi_{\\theta_{old}}(o_t|q, o_{<t})}, 1-\\epsilon, 1+\\epsilon \\right) A_t \\right) \\right]\n",
-"$$\n",
-
+$$\mathcal{J}_{PPO}(\theta) = \mathbb{E}_{q \sim P(Q),\; o \sim \pi_{\theta_{old}}(O|q)} \left[ 
+\frac{1}{|o|} \sum_{t=1}^{|o|} \min \left( 
+\frac{\pi_{\theta}(o_t|q, o_{<t})}{\pi_{\theta_{old}}(o_t|q, o_{<t})} A_t,\; 
+\text{clip} \left( 
+\frac{\pi_{\theta}(o_t|q, o_{<t})}{\pi_{\theta_{old}}(o_t|q, o_{<t})},\; 1-\epsilon,\; 1+\epsilon 
+\right) A_t 
+\right) 
+\right]$$
 
 ## Reward Modeling
 | Title | Publish/Affiliation | Code |  Method |
