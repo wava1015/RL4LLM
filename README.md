@@ -23,6 +23,12 @@
 | [Self-Generated Critiques Boost Reward Modeling for Language Models](https://arxiv.org/abs/2411.16646) | Meta GenAI 2025.2 | x | 🎯Generative Reward Model🎯。提出了 Critic-RM，使用 self-generated，high-quality critiques 来训练 Reward Model。 |
 | [Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning](https://openreview.net/forum?id=A6Y7AqlzLW) | ICLR 2025 | x | 🎯PRM & Automated Annotation🎯。|
 
+## Complete training pipeline
+| Title | Publish/Affiliation | Code |  Method |
+|-----|-----|-----|-----|
+| [Training Verifiers to Solve Math Word Problems](https://arxiv.org/abs/2110.14168) | OpenAI 2021.11 | x | 🎯ORM & Human Annotation🎯。通过人类标注的基于结果的监督信号训练一个 Outcome-based Verifier/Reward Model |
+| [Let’s Verify Step by Step](https://arxiv.org/abs/2305.20050) | OpenAI 2023.5 | x | 🎯PRM & Human Annotation🎯。通过人类标注的基于过程的监督信号训练一个 Process-based Verifier/Reward Model |
+
 ## Application of RL in LLMs
 | Title | Publish/Affiliation | Code |  Method |
 |-----|-----|-----|-----|
