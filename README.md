@@ -9,17 +9,6 @@
 | [Understanding R1-Zero-Like Training: A Critical Perspective (Dr.GRPO)](https://arxiv.org/abs/2503.20783) | NUS 2025.3 | [code](https://github.com/sail-sg/understand-r1-zero) | 在 GRPO 的基础上进行改进。🔥认为 GRPO 中存在两方面的 bias: 1)GRPO 针对 responses 的长度取平均会引入 length bias，导致损失函数鼓励更短的优势输出和更长的劣势输出；2)GRPO对rewards进行组内归一化时除以标准差会引入 Question-level difficulty bias，即更难的问题往往伴随更大的方差，从而获得更小的梯度更新。🔥改进：直接舍弃掉了导致两种 bias 的算子。 |
 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale (DAPO)](https://arxiv.org/abs/2503.14476) | ByteDance Seed 2025.3 | [code](https://github.com/volcengine/verl) | 在GRPO的基础上进行改进。🔥Clip-Higher: 避免 entropy collapse。🔥Dynamic Sampling: 提升训练效率与稳定性。🔥Token-Level Policy Gradient Loss: 适用于 long-CoT RL 场景。🔥Overlong Reward Shaping:减少 reward noise。 |
 
-### 🌟PPO
-![image](https://github.com/zwxandy/Efficient-CoT-Reasoning/blob/main/long_cot.png)
-$$\mathcal{J}_{PPO}(\theta) = \mathbb{E}_{q \sim P(Q),\; o \sim \pi_{\theta_{old}}(O|q)} \left[ 
-\frac{1}{|o|} \sum_{t=1}^{|o|} \min \left( 
-\frac{\pi_{\theta}(o_t|q, o_{<t})}{\pi_{\theta_{old}}(o_t|q, o_{<t})} A_t,\; 
-\text{clip} \left( 
-\frac{\pi_{\theta}(o_t|q, o_{<t})}{\pi_{\theta_{old}}(o_t|q, o_{<t})},\; 1-\epsilon,\; 1+\epsilon 
-\right) A_t 
-\right) 
-\right]$$
-
 ## Reward Modeling
 | Title | Publish/Affiliation | Code |  Method |
 |-----|-----|-----|-----|
@@ -33,3 +22,8 @@ $$\mathcal{J}_{PPO}(\theta) = \mathbb{E}_{q \sim P(Q),\; o \sim \pi_{\theta_{old
 | [What Makes a Reward Model a Good Teacher? An Optimization Perspective](https://arxiv.org/abs/2503.15477) | Princeton 2025.3 | x | 🎯Theoretical Perspective🎯。从reward variance 的视角探究如何优化 Reward Model 的训练。 |
 | [Self-Generated Critiques Boost Reward Modeling for Language Models](https://arxiv.org/abs/2411.16646) | Meta GenAI 2025.2 | x | 🎯Generative Reward Model🎯。提出了 Critic-RM，使用 self-generated，high-quality critiques 来训练 Reward Model。 |
 | [Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning](https://openreview.net/forum?id=A6Y7AqlzLW) | ICLR 2025 | x | 🎯PRM & Automated Annotation🎯。|
+
+## Application of RL in LLMs
+| Title | Publish/Affiliation | Code |  Method |
+|-----|-----|-----|-----|
+| [Training Language Models to Self-Correct via Reinforcement Learning](https://openreview.net/forum?id=CjwERcAU7w) | ICLR 2025 | x | 通过RL来提升LLM的自我纠错能力 |
