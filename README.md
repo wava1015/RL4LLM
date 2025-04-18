@@ -37,4 +37,4 @@
 ## RL-Agent
 | Title | Publish/Affiliation | Code |  Method |
 |-----|-----|-----|-----|
-| [Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366) | ICLR 2025 | [code](https://search-o1.github.io/) | 通过RL来提升LLM的自我纠错能力 |
+| [Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366) | 2025.1 arxiv | [code](https://search-o1.github.io/) | 通过RL来提升LLM的自我纠错能力 |
