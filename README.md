@@ -33,3 +33,8 @@
 | Title | Publish/Affiliation | Code |  Method |
 |-----|-----|-----|-----|
 | [Training Language Models to Self-Correct via Reinforcement Learning](https://openreview.net/forum?id=CjwERcAU7w) | ICLR 2025 | x | 通过RL来提升LLM的自我纠错能力 |
+
+## RL-Agent
+| Title | Publish/Affiliation | Code |  Method |
+|-----|-----|-----|-----|
+| [Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366) | ICLR 2025 | [code](https://search-o1.github.io/) | 通过RL来提升LLM的自我纠错能力 |
