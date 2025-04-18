@@ -37,4 +37,6 @@
 ## RL-Agent
 | Title | Publish/Affiliation | Code |  Method |
 |-----|-----|-----|-----|
-| [Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366) | 2025.1 arxiv | [code](https://search-o1.github.io/) | 通过RL来提升LLM的自我纠错能力 |
+| [Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366) | 2025.1 arxiv | [code](https://search-o1.github.io/) | Agentic Search |
+| [Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning](https://arxiv.org/abs/2503.09516) | 2025.3 arxiv | [code](https://github.com/PeterGriffinJin/Search-R1) | Agentic Search |
+| [R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.05592) | 2025.3 arxiv | [code](https://github.com/RUCAIBox/R1-Searcher) | Agentic Search |
