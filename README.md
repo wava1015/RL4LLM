@@ -40,3 +40,5 @@
 | [Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366) | 2025.1 arxiv | [code](https://search-o1.github.io/) | Agentic Search |
 | [Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning](https://arxiv.org/abs/2503.09516) | 2025.3 arxiv | [code](https://github.com/PeterGriffinJin/Search-R1) | Agentic Search |
 | [R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.05592) | 2025.3 arxiv | [code](https://github.com/RUCAIBox/R1-Searcher) | Agentic Search |
+| [Executable Code Actions Elicit Better LLM Agents](https://openreview.net/forum?id=jJ9BoXAfFa) | ICML 2024 | [code](https:
+//github.com/xingyaoww/code-act) | Code Act |
