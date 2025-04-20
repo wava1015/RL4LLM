@@ -42,3 +42,4 @@
 | [R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.05592) | 2025.3 arxiv | [code](https://github.com/RUCAIBox/R1-Searcher) | Agentic Search |
 | [Executable Code Actions Elicit Better LLM Agents](https://openreview.net/forum?id=jJ9BoXAfFa) | ICML 2024 | [code](https://github.com/xingyaoww/code-act) | Code Act |
 | [CODEPLAN: UNLOCKING REASONING POTENTIAL IN LLMS BY SCALING CODE-FORM PLANNING](https://openreview.net/pdf?id=dCPF1wlqj8) | ICLR 2025 | x | Code Plan |
+| [Pal: Program-aided language models](https://proceedings.mlr.press/v202/gao23f/gao23f.pdf) | ICML 2023 | [code](https://proceedings.mlr.press/v202/gao23f/gao23f.pdf) | Code Reasoning |
