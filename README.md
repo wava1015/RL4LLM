@@ -43,3 +43,4 @@
 | [Executable Code Actions Elicit Better LLM Agents](https://openreview.net/forum?id=jJ9BoXAfFa) | ICML 2024 | [code](https://github.com/xingyaoww/code-act) | Code Act |
 | [CODEPLAN: UNLOCKING REASONING POTENTIAL IN LLMS BY SCALING CODE-FORM PLANNING](https://openreview.net/pdf?id=dCPF1wlqj8) | ICLR 2025 | x | Code Plan |
 | [Pal: Program-aided language models](https://proceedings.mlr.press/v202/gao23f/gao23f.pdf) | ICML 2023 | [code](https://proceedings.mlr.press/v202/gao23f/gao23f.pdf) | Code Reasoning |
+| [ReTool: Reinforcement Learning for Strategic Tool Use in LLMs](https://arxiv.org/abs/2504.11536) | 字节 Seed 2025.4 | [code](https://retool-rl.github.io/) | RL for Tool Use |
